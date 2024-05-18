@@ -1,0 +1,37 @@
+\documentclass[9pt]{book}
+\input{formats.tex}
+\usepackage{subfiles}
+
+\begin{document}
+\pagestyle{mystyle}
+% \let\cleardoublepage=\clearpage
+
+\begin{titlepage}
+    \vspace*{2cm}
+    
+    \noindent
+    \vspace*{0.5cm}
+    \Huge{标题页回头用ps来做}
+    
+    \vspace{1.5cm}
+    { \textsc{Author}}
+    \null\vfill
+    \vspace*{1cm}
+    \noindent
+    \hfill
+    %
+\end{titlepage}
+
+\tableofcontents
+
+\thispagestyle{empty}
+\blankpage
+
+\newpage
+\setcounter{page}{1}
+\subfile{Chapters/birthwrong}
+\subfile{Chapters/dragon}
+\subfile{Chapters/rose}
+
+
+\end{document}
