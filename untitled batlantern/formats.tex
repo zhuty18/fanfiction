@@ -2,12 +2,10 @@
 \usepackage{ulem}
 \usepackage[utf8]{inputenc}
 \usepackage{ctex}
-\usepackage{endnotes}
 \usepackage{indentfirst}
 \usepackage{hyperref}
 \usepackage{color}
 
-\newcommand{\st}[1]{\sout{#1}}
 \newcommand{\blankpage}{\newpage \vfill}
 
 \usepackage{titletoc}
@@ -21,9 +19,11 @@
   top=23mm,
 }
 
+\hypersetup{hidelinks}
+
 \usepackage{framed}
 
-\renewcommand{\contentsname}{\youyuan\vspace{0cm} 目\hspace{1em}录 \vspace{-1cm}}
+\renewcommand{\contentsname}{\youyuan\vspace{-4em} 目\hspace{1em}录}
 
 
 \renewenvironment{leftbar}
@@ -37,6 +37,7 @@
 
 \setcounter{tocdepth}{1}
 \counterwithout{section}{chapter}
+\counterwithout{subsection}{section}
 
 \titlecontents{chapter}
 [0em]
@@ -45,36 +46,40 @@
 {}{\endleftbar}
 
 \titlecontents{section}
-[6em]
-{\sffamily\contentslabel{3em}}{}{}
-{\phantom{    }\dotfill \nobreak\itshape\color{black}\contentspage}
+[5em]
+{\rmfamily\color{black}}
+{\S \hspace{0.5em}\thecontentslabel\hspace{1em}}{}
+{\phantom{    }\dotfill \nobreak\itshape\contentspage}
 
 \usepackage{titlesec}
 
 \titleformat{\chapter}{\huge\bfseries\yahei}{\thispagestyle{empty}}{1em}{}
 
-\renewcommand{\notesname}{\small 注：}
+\titleformat{\section}{\bfseries\sffamily}{Chapter~\thesection}{1em}{}
 
-\newcommand{\addnotes}{
-  \vfill
-  \begin{small}
-    \theendnotes
-  \end{small}
-  \newpage
-}
+\titleformat{\subsection}{\sffamily}{0\thesubsection}{1em}{}
 
-\titleformat{\section}{\large\bfseries}{
-  Chapter ~\thesection}{1em}{}
+\titlespacing*{\chapter}{1em}{5em}{1em}
+\titlespacing*{\section}{4em}{1em}{1em}
+\titlespacing*{\subsection}{2em}{1em}{1em}
 
 \usepackage{fancyhdr}
 
 \newcommand{\mytitle}{封面标题}
 \renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
 \renewcommand{\headrulewidth}{0pt}
-
 \fancypagestyle{mystyle}{
   \fancyhf{}
   \fancyhead[LE,RO]{\thepage}
   \fancyhead[CE]{\mytitle}
   \fancyhead[CO]{\leftmark}
 }
+
+\newcommand{\storyend}[1][完]{
+  \vspace{5em}
+  \hfill #1 \hspace{5em}
+  \vspace{3em}
+}
+
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\itshape}
