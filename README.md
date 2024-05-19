@@ -1,49 +1,55 @@
 # 同人本
 [蝙绿本](untitled%20batlantern/main.pdf)
 
-字数统计: 149182
-
 ```
-File: main.tex
-Encoding: utf8
-Words in text
-Words in headers: 163
-Words outside text (captions, etc.): 2621
-Number of headers: 31
+File: ./main.tex
+Encoding: utf8       
+Words in text: 171237
+Words in headers: 202
+Words outside text (captions, etc.): 2708
+Number of headers: 38
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  0+7+0 (1/0/0/0) Chapter: 涓庣敓淇辨潵 \\ Birthright, or Birthwrong?
+  10+0+0 (0/0/0/0) Subsection
+  0+7+0 (1/0/0/0) Chapter: 与生俱来 \\ Birthright, or Birthwrong?
   16+1+0 (1/0/0/0) Section: Summary:
   152+1+0 (1/0/0/0) Section: Notes:
-  8651+8+69 (1/0/0/0) Section: 鍗佷竷宀佺殑浼婂崱娲涙柉
-  8528+9+201 (1/0/0/0) Section: 浜屽崄鍥涘瞾鐨勫ゥ寰蜂慨鏂?
-  8643+9+504 (1/0/0/0) Section: 浜屽崄浜斿瞾鐨勯樋鍠€鐞夋柉
-  11220+9+148 (1/0/0/0) Section: 涓夊崄涓夊瞾鐨勯樋鐗规媺鏂?
-  19633+9+319 (1/0/0/0) Section: 涓夊崄浜斿瞾鐨勫搱灏斅蜂箶涓?
-  12453+10+706 (1/0/0/0) Section: 涓夊崄浜斿瞾鐨勫竷椴佹柉路闊︽仼
-  10227+9+137 (1/0/0/0) Section: 涓夊崄鍏瞾鐨勫墠灏樿繃寰€
-  9647+9+128 (1/0/0/0) Section: 涓夊崄鍏瞾鐨勬潵鏃ユ柟闀?
-  12499+7+198 (1/0/0/0) Section: 鐩告€濈浉瑙佺煡浣曟棩
-  15450+7+129 (1/0/0/0) Section: 姝ゆ椂姝ゅ闅句负鎯?
-  0+2+0 (1/0/0/0) Section: 鐣
-  3329+6+0 (1/0/0/0) Subsection: 钀ㄨ帋鐨勫皬鏈瓙
-  3312+10+27 (1/0/0/0) Subsection: 浠庨仐鎲炬嫆缁濆埌娆ｇ劧鎺ュ彈
-  2231+4+0 (1/0/0/0) Subsection: 涓嶉€熶箣瀹?
-  32+0+0 (1/0/0/0) Subsection: 
-  0+8+0 (1/0/0/0) Chapter: 閲庣敓榫欐棌瑙傚療鏃ヨ
+  8656+8+69 (1/0/0/0) Section: 十七岁的伊卡洛斯
+  8528+9+201 (1/0/0/0) Section: 二十四岁的奥德修斯
+  8653+9+504 (1/0/0/0) Section: 二十五岁的阿喀琉斯
+  11220+9+148 (1/0/0/0) Section: 三十三岁的阿特拉斯
+  7915+10+319 (1/0/0/0) Section: 三十五岁的哈尔·乔丹（上）
+  11736+12+0 (1/0/0/0) Section: Chapter~5\hspace{1em}三十五岁的哈尔·乔丹（下）
+  12458+10+706 (1/0/0/0) Section: 三十五岁的布鲁斯·韦恩
+  10238+9+137 (1/0/0/0) Section: 三十六岁的前尘过往
+  9653+9+128 (1/0/0/0) Section: 三十六岁的来日方长
+  12499+7+198 (1/0/0/0) Section: 相思相见知何日
+  15461+7+129 (1/0/0/0) Section: 此时此夜难为情
+  0+2+0 (1/0/0/0) Section: 番外
+  3335+6+0 (1/0/0/0) Subsection: 萨莎的小本子
+  3323+10+27 (1/0/0/0) Subsection: 从遗憾拒绝到欣然接受
+  2242+4+0 (1/0/0/0) Subsection: 不速之客
+  44+0+0 (1/0/0/0) Subsection:
+  0+8+0 (1/0/0/0) Chapter: 野生龙族观察日记
   11+1+0 (1/0/0/0) Section: Summary:
-  10232+1+4 (1/0/0/0) Section: Notes:
-  0+9+0 (1/0/0/0) Chapter: 鐜懓鑻ヤ笉鍙繖涓悕瀛?
+  10237+1+4 (1/0/0/0) Section: Notes:
+  0+9+0 (1/0/0/0) Chapter: 玫瑰若不叫这个名字
   29+1+0 (1/0/0/0) Section: Summary:
   67+1+0 (1/0/0/0) Section: Notes:
-  1557+4+0 (1/0/0/0) Section: 娑堝け涔嬩汉
-  2036+4+0 (1/0/0/0) Section: 鍝堝皵路涔斾腹
-  2235+2+24 (1/0/0/0) Section: 娌夋€?
-  1909+3+15 (1/0/0/0) Section: 缁跨伅渚?
-  1507+4+0 (1/0/0/0) Section: 鍏充簬绉樺瘑
-  1852+4+12 (1/0/0/0) Section: 鐩洸铦欒潬
-  1724+4+0 (1/0/0/0) Section: 鏈珶涔嬩簨
+  1557+6+0 (1/0/0/0) Section: Chapter 0\hspace{1em}消失之人
+  2036+6+0 (1/0/0/0) Section: Chapter 1\hspace{1em} 哈尔·乔丹
+  2235+4+24 (1/0/0/0) Section: Chapter 2\hspace{1em} 沉思
+  1909+5+15 (1/0/0/0) Section: Chapter 3\hspace{1em} 绿灯侠
+  1507+6+0 (1/0/0/0) Section: Chapter 4\hspace{1em} 关于秘密
+  1852+6+12 (1/0/0/0) Section: Chapter 5\hspace{1em} 目盲蝙蝠
+  1727+6+0 (1/0/0/0) Section: Chapter 6\hspace{1em} 未竟之事
+  0+6+0 (1/0/0/0) Chapter: 我为你发光了
+  44+1+0 (1/0/0/0) Section: Summary:
+  18336+1+87 (1/0/0/0) Section: Notes:
+  0+2+0 (1/0/0/0) Chapter: 情话
+  28+1+0 (1/0/0/0) Section: Summary:
+  3523+1+0 (1/0/0/0) Section: Notes:
 ```
